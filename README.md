@@ -2,18 +2,19 @@
 
 ## Introduction
 
-This is a tutorial that shows how to develop a [Kubernetes admission webhooks][k8s-webhooks].
+This is a tutorial that shows how to develop a [Kubernetes admission webhook][k8s-webhooks].
 
-To explain this, the tutorial is split in 5 videos. We will create a webhook from scratch that will try to
-recreate the webhook that [this post][wh-post] describes.
+To explain this, the tutorial is split in 5 videos.
+
+We will create a webhook from scratch that will try to recreate the webhook that **[this post][wh-post]** describes.
 
 ## The problem to solve
 
-When a user makes an `exec` operation on a pod, we mark that pod and set a TTL
+When a user makes an `exec` operation on a pod, we mark that pod and set a TTL,
 when that TTL expires, the pod will be deleted.
 
-The tutorial is based on [kubewebhook] to develop the webhook and uses [kube-janitor] to delete the pods after
-a specific TTL.
+The tutorial is based on [kubewebhook] to develop the webhook, and uses [kube-janitor] to delete the pods after
+a specific TTL expires.
 
 ## Disclaimer
 
