@@ -23,19 +23,19 @@ a specific TTL.
 
 ## Content
 
-- [Watch video 1][video1]([Download][video1-dl])
+- **[Watch video 1][video1]** ([Download][video1-dl])
   - Introduction and context.
-- [Watch video 2][video2]([Download][video2-dl])
+- **[Watch video 2][video2]** ([Download][video2-dl])
   - Create app structure
   - Create webhook without domain logic using [kubewebhook].
   - Running application.
-- [Watch video 3][video3]([Download][video3-dl])
+- **[Watch video 3][video3]** ([Download][video3-dl])
   - Set up dev environment (dev cluster with [kind], certs with [mkcert], tunnels with [ngrok], webhook registration).
   - End-2-end manual testing to check webhook is being called.
-- [Watch video 4][video4]([Download][video4-dl])
+- **[Watch video 4][video4]** ([Download][video4-dl])
   - Implement domain logic of webhook (Marking pod as drifted)
   - End-2-end manual testing to check webhook is marking pods.
-- [Watch video 5][video5]([Download][video5-dl])
+- **[Watch video 5][video5]** ([Download][video5-dl])
   - Deploy [Kube-janitor].
   - Implement domain logic of webhook (Marking pod with expiration time).
   - End-2-end manual testing to check webhook sets expiration and kube-janitor deletes.
