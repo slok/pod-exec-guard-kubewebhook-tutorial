@@ -23,19 +23,19 @@ a specific TTL.
 
 ## Content
 
-- [Video 0][video0]
+- [Watch video 1][video1]([Download][video1-dl])
   - Introduction and context.
-- [Video 1][video1]
+- [Watch video 2][video2]([Download][video2-dl])
   - Create app structure
   - Create webhook without domain logic using [kubewebhook].
   - Running application.
-- [Video 2][video2]
+- [Watch video 3][video3]([Download][video3-dl])
   - Set up dev environment (dev cluster with [kind], certs with [mkcert], tunnels with [ngrok], webhook registration).
   - End-2-end manual testing to check webhook is being called.
-- [Video 3][video3]
+- [Watch video 4][video4]([Download][video4-dl])
   - Implement domain logic of webhook (Marking pod as drifted)
   - End-2-end manual testing to check webhook is marking pods.
-- [Video 4][video4]
+- [Watch video 5][video5]([Download][video5-dl])
   - Deploy [Kube-janitor].
   - Implement domain logic of webhook (Marking pod with expiration time).
   - End-2-end manual testing to check webhook sets expiration and kube-janitor deletes.
@@ -47,8 +47,13 @@ a specific TTL.
 [kube-janitor]: https://codeberg.org/hjacobs/kube-janitor
 [mkcert]: https://github.com/FiloSottile/mkcert
 [ngrok]: https://ngrok.com/
-[video0]: https://drive.google.com/file/d/1svMFVFESCUqHxKG41SWnJoVchBQ2cxhc/view?usp=sharing
-[video1]: https://drive.google.com/file/d/151nr5QrPRNE3r6xqZJxKzNGzm6u4crZo/view?usp=sharing
-[video2]: https://drive.google.com/file/d/1FBWOvpEZMBqGMiuuo4c5Snj_EYVP0seC/view?usp=sharing
-[video3]: https://drive.google.com/file/d/1AGDnYJcjaq4uRjplDAdhwmZulJEpcjfz/view?usp=sharing
-[video4]: https://drive.google.com/file/d/1VJPI5xwvBnifk0fikKLksvHpY9XfSLAi/view?usp=sharing
+[video1]: https://youtu.be/ujCzvjGXO08
+[video2]: https://youtu.be/3gsrYSQcgJI
+[video3]: https://youtu.be/3hqQWN7oTrU
+[video4]: https://youtu.be/miCVIbKZdXw
+[video5]: https://youtu.be/LidzzFRat3k
+[video1-dl]: https://drive.google.com/file/d/1svMFVFESCUqHxKG41SWnJoVchBQ2cxhc/view?usp=sharing
+[video2-dl]: https://drive.google.com/file/d/151nr5QrPRNE3r6xqZJxKzNGzm6u4crZo/view?usp=sharing
+[video3-dl]: https://drive.google.com/file/d/1FBWOvpEZMBqGMiuuo4c5Snj_EYVP0seC/view?usp=sharing
+[video4-dl]: https://drive.google.com/file/d/1AGDnYJcjaq4uRjplDAdhwmZulJEpcjfz/view?usp=sharing
+[video5-dl]: https://drive.google.com/file/d/1VJPI5xwvBnifk0fikKLksvHpY9XfSLAi/view?usp=sharing
