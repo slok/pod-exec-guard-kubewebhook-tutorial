@@ -4,7 +4,7 @@
 
 This is a tutorial that shows how to develop a [Kubernetes admission webhook][k8s-webhooks].
 
-To explain this, the tutorial is split in 5 videos.
+To explain this, the tutorial is split in [5 videos][video-list].
 
 We will create a webhook from scratch that will try to recreate the webhook that **[this post][wh-post]** describes.
 
@@ -48,6 +48,7 @@ a specific TTL expires.
 [kube-janitor]: https://codeberg.org/hjacobs/kube-janitor
 [mkcert]: https://github.com/FiloSottile/mkcert
 [ngrok]: https://ngrok.com/
+[vide-list]: https://youtube.com/playlist?list=PL2XJ-5iNgIaK2gPl-GqVlnOZCvmkBYG2M
 [video1]: https://youtu.be/ujCzvjGXO08
 [video2]: https://youtu.be/3gsrYSQcgJI
 [video3]: https://youtu.be/3hqQWN7oTrU
