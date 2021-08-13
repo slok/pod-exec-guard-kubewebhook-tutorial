@@ -48,7 +48,7 @@ a specific TTL expires.
 [kube-janitor]: https://codeberg.org/hjacobs/kube-janitor
 [mkcert]: https://github.com/FiloSottile/mkcert
 [ngrok]: https://ngrok.com/
-[vide-list]: https://youtube.com/playlist?list=PL2XJ-5iNgIaK2gPl-GqVlnOZCvmkBYG2M
+[video-list]: https://youtube.com/playlist?list=PL2XJ-5iNgIaK2gPl-GqVlnOZCvmkBYG2M
 [video1]: https://youtu.be/ujCzvjGXO08
 [video2]: https://youtu.be/3gsrYSQcgJI
 [video3]: https://youtu.be/3hqQWN7oTrU
